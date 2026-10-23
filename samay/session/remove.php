@@ -1,0 +1,1 @@
+<?php require_once '../includes/bootstrap.php';if($_SERVER['REQUEST_METHOD']!=='POST'){header('Location: cart.php');exit;}verify_csrf();$id=(string)($_POST['id']??'');unset($_SESSION['cart'][$id]);header('Location: cart.php');exit;

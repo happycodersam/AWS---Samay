@@ -1,0 +1,1 @@
+<?php if(session_status()!==PHP_SESSION_ACTIVE)session_start();if(empty($_SESSION['captcha']))$_SESSION['captcha']=(string)random_int(1000,9999);echo '<span class="captcha-code">'.htmlspecialchars($_SESSION['captcha'],ENT_QUOTES,'UTF-8').'</span>'; ?>

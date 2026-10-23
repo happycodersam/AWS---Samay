@@ -1,0 +1,2 @@
+<?php require_once '../../includes/bootstrap.php';$pageTitle='Payment status | Samay';require '../../includes/header.php'; ?>
+<section class="section"><div class="empty-state"><div class="kicker">Payment status</div><h2>Payment needs verification.</h2><p>A redirect to this page alone does not prove a payment succeeded. This demo does not mark orders as paid or clear the cart without server-side PayPal verification.</p><a class="button" href="../cart.php">Return to your bag</a></div></section><?php require '../../includes/footer.php'; ?>

@@ -1,0 +1,6 @@
+in procedure nothing required after procedure name direct write begin
+
+
+in function use returns in
+deterministic
+begin
