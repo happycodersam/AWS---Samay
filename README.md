@@ -1,5 +1,8 @@
 ﻿# AWS---Samay
 
+# Live on AWS 
+
+http://13.233.199.54/
 
 # Samay — Watch E-Commerce Platform
 
